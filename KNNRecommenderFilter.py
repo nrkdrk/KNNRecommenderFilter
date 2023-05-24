@@ -119,4 +119,4 @@ elif recommend_count == 0:
 if select_data_id == 1:
     KNNRecommenderFilter(shoppingTrendData, recommend_count, method_type_id).recommendList("data0")
 elif select_data_id == 2:
-    KNNRecommenderFilter(movieData, recommend_count, method_type_id).recommendList("movie0")
+    KNNRecommenderFilter(movieData, recommend_count, method_type_id).recommendList("movie4")
